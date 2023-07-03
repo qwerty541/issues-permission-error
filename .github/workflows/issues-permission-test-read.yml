@@ -1,10 +1,10 @@
-name: issues permissions (none)
-run-name: ${{ github.actor }} is testing issues permissions (none)
+name: issues permissions (read)
+run-name: ${{ github.actor }} is testing issues permissions (read)
 on: [push, workflow_dispatch]
 
 
 permissions:
-  issues: none
+  issues: read
 
 jobs:
   check-bats-version:
