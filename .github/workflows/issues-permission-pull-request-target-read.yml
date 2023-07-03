@@ -1,5 +1,5 @@
-name: issues permissions (read)
-run-name: ${{ github.actor }} is testing issues permissions (read)
+name: issues permissions (pull_request_target/read)
+run-name: ${{ github.actor }} is testing issues permissions (pull_request_target/read)
 on: [pull_request_target]
 
 
